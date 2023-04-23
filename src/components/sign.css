@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@600&display=swap');
+
+
+
+.col1 {
+    width: 50vw;
+    height: 100vh;
+    background: #000000;
+}
+
+
+.logo {
+    color: #F5F5F5;
+    font-size: 4vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #FFFFFF;
+    position: absolute;
+    top: 42vh;
+    left: 7vw;
+}
+
+.col2 {
+    width: 100vw;
+    height: 100vh;
+    background: #F5F5F5;
+    position: relative;
+
+}
+
+.heading {
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 2vw;
+    color: #000000;
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    
+}
+
+.subheading{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 1vw;
+    color: #000000;
+    position: absolute;
+    top: 27vh;
+    left: 20vw;
+}
+
+.google{
+    background: #FFFFFF; 
+    position: absolute;
+    top: 33vh;
+    left: 20vw;
+    height: 5vh;
+    width: 12vw;
+    border-radius: 2vh;
+    border: #FFFFFF;
+    font-size: 2vh;
+}
+
+.apple{
+    background: #FFFFFF; 
+    position: absolute;
+    top: 33vh;
+    left: 33vw;
+    height: 5vh;
+    width: 12vw;
+    border-radius: 2vh;
+    border: #FFFFFF;
+    font-size: 2vh;
+}
+
+.con1 {
+    background: #FFFFFF;
+    border-radius: 50px;
+    height: 40vh;
+    width: 25vw;
+    position: absolute;
+    top: 40vh;
+    left: 20vw;
+    border: #FFFFFF;
+    font-size: 2vh;
+}
+
+.input1 {
+    position: absolute;
+    background: #F5F5F5;
+    height: 5vh;
+    width: 20vw;
+    font-size: 1vw;
+    top: 9vh;
+    left: 2vw;
+    border-radius: 1vh;
+    /* padding: auto; */
+    padding-left: 1vw;
+}
+
+.input2 {
+    position: absolute;
+    background: #F5F5F5;
+    height: 5vh;
+    width: 20vw;
+    font-size: 1vw;
+    top: 19vh;
+    left: 2vw;
+    border-radius: 1vh;
+    /* padding: auto; */
+    padding-left: 1vw;
+    
+
+}
+
+.lable1 {
+    font-size: 1vw;
+    position: absolute;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    top: 6vh;
+    left: 2vw;
+    color: #000000;
+
+}
+
+.lable2 {
+    font-size: 1vw;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    top: 16vh;
+    left: 2vw;
+    color: #000000;
+
+}
+
+.lable3{
+    font-size: 1vw;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    top: 26vh;
+    left: 2vw;
+    color: blue;
+   
+}
+
+.button1{
+    position: absolute;
+    top: 31vh;
+    left: 2vw;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 1vh;
+    font-size: 1vw;
+    background-color: #000000;
+    color: #F5F5F5;
+
+}
+#google {
+    position: absolute;
+    border-top: 10px solid #ea4335;
+    border-right: 10px solid #4285f4;
+    border-left: 10px solid #fbbc05;
+    border-bottom: 10px solid #34a853;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin: 1vh auto 0;
+     /* top:-1vh; */
+     right: 10vw;
+  }
+  #google::before {
+    content: "";
+    z-index: 50;
+    position: absolute;
+    top: 45%;
+    right: -9px;
+    transform: translateY(-50%);
+    height: 7px;
+    width: 14px;
+    background-color: #4285f4;
+  }
+  #google::after {
+    content: "";
+    z-index: 15;
+    position: absolute;
+    border-top: 20px solid transparent;
+    border-right: 20px solid #fff;
+    top: -14px;
+    right: -12px;
+    height: 0;
+    width: 0;
+  }
+
+  .n1{
+  padding-top: 5px;
+  padding-left: 20px;
+  }

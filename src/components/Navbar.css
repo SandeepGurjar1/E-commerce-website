@@ -1,0 +1,10 @@
+.logoo{
+    background-color: rgb(73, 239, 137);
+    border-radius: 8px;
+    height: 40px;
+}
+
+.hov:hover{
+    background-color: rgb(73, 239, 137);
+    border-radius: 10px;
+}

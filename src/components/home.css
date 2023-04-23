@@ -1,0 +1,15 @@
+.f2{
+    background-color:rgb(76, 66, 84);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-style: none;
+   height: 50px;
+   font-size:20px ;
+}
+.f2:hover{
+    height: 60px;
+    font-size: 30px;
+}
+.card-img{
+ margin-left: 32%;
+ width: 1080px;
+}
