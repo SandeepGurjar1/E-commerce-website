@@ -13,7 +13,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <>
-      <Home/>
+      <Home />
       <Routes>
       <Route exact path="/register" element={<Register/>} />
         <Route exact path="/login" element={<Login/>} />
