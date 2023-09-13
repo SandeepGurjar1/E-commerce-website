@@ -13,16 +13,17 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <>
-      <Switch>
-        <Route path="/" element={<Home/>}/>
-        <Route exact path="/register" element={<Register/>} />
-        <Route exact path="/login" element={<Login/>} />
-        <Route exact path="/products" element={<Products/>} />
-        <Route exact path="/cart" element={<Cart/>} />
-        <Route exact path="/products/:id" element={<Product/>} />
-        <Route exact path="/about" element={<About/>} />
-        <Route exact path="/contact" element={<Contact/>} />
-      </Switch>
+    {<Navbar/>};
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route  path='/register' element={<Register/>} />
+        <Route  path='/login' element={<Login/>} />
+        <Route  path='/products' element={<Products/>} />
+        <Route  path='/cart' element={<Cart/>} />
+        <Route  path='/products/:id' element={<Product/>} />
+        <Route  path='/about' element={<About/>} />
+        <Route  path='/contact' element={<Contact/>} />
+      </Routes>
     </>
   );
 }
